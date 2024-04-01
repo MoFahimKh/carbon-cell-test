@@ -24,6 +24,8 @@ export const WalletProvider = ({ children }: { children: ReactNode }) => {
         const addr = await getSignerAddress();
         setAddress(addr);
         toast.success("Wallet connected!");
+      } else {
+        toast.error("MetaMask not found!");
       }
     } catch (err) {
       console.error("Error connecting wallet:", err);
@@ -47,6 +49,8 @@ export const WalletProvider = ({ children }: { children: ReactNode }) => {
           const addr = await getSignerAddress();
           setAddress(addr);
           toast.success("Wallet connected!");
+        } else {
+          toast.error("MetaMask not found!");
         }
       } catch (err) {
         console.log(err);
