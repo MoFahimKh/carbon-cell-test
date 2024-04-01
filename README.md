@@ -13,7 +13,7 @@ Implemented a responsive side navigation bar similar to the provided image.
 - Active navigation item highlighted.
 
 ### Task 2: Graph Population Data
-Fetched population data from the provided API (https://datausa.io/api/data?drilldowns=Nation&measures=Population) and created a graph using React JS and Chart.js.
+Fetched population data from the provided API ([DataUSA API](https://datausa.io/api/data?drilldowns=Nation&measures=Population)) and created a graph using React JS and Chart.js.
 
 **Features:**
 - Utilized React JS for the frontend.
@@ -22,7 +22,7 @@ Fetched population data from the provided API (https://datausa.io/api/data?drill
 - Provided appropriate labels, legends, and axis titles for the graph.
 
 ### Task 3: Display Cryptocurrency Prices
-Fetched cryptocurrency prices from the provided API (https://api.coindesk.com/v1/bpi/currentprice.json) and displayed them in cards.
+Fetched cryptocurrency prices from the provided API ([CoinDesk API](https://api.coindesk.com/v1/bpi/currentprice.json)) and displayed them in cards.
 
 **Features:**
 - Asynchronously fetched data using React lifecycle methods/hooks.
@@ -37,7 +37,15 @@ Implemented MetaMask wallet integration using Web3 JS when the "Connect Wallet" 
 - Displayed appropriate feedback/messages for successful/unsuccessful wallet connection attempts using react-toastify.
 - Ensured compatibility with modern browsers and MetaMask extension.
 
-
+## Technologies Used
+- React
+- TypeScript
+- Reactstrap
+- SASS
+- React Router DOM
+- Web3.js
+- Chart.js
+- Context API
 
 ## Contact
 For any questions or further clarification, feel free to reach out to [mfahimkh2001@gmail.com](mailto:mfahimkh2001@gmail.com).
