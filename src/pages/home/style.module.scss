@@ -1,0 +1,30 @@
+.container {
+  color: white;
+  position: relative;
+  left: 260px;
+}
+.heading {
+  background: linear-gradient(270deg, #00ff00 3.16%, #ffff00 86.63%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.green {
+  color: #00ff00;
+}
+.connect-container {
+  position: absolute;
+  right: 25%;
+  top: 8px;
+}
+.asset-container {
+  // display: flex;
+  position: relative;
+  bottom: -326px;
+
+}
+.hello-text{
+  padding-top: 20px;
+}

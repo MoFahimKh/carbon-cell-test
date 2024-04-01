@@ -1,0 +1,32 @@
+.line-graph {
+  height: 118px;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  margin-bottom: -9px;
+}
+.graph-container {
+  width: 335px;
+}
+
+.errorText {
+  justify-content: center;
+  display: flex;
+  margin-top: 44px;
+  color: #fa8f6b;
+}
+.line-graph-container {
+  width: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  position: absolute;
+  // left: 20%;
+  margin-top: 10px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.label {
+  margin-top: 20px;
+  padding-left: 164px;
+}

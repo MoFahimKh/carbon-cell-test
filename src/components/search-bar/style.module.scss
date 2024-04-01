@@ -1,0 +1,12 @@
+.searchInput {
+  background: transparent;
+  width: 120px;
+  color: white;
+  border: 1px solid transparent;
+  &::placeholder {
+    color: white;
+  }
+}
+.searchInput:focus {
+  border: 1px solid transparent !important;
+}

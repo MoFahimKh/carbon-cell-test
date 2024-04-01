@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: Lexend !important;
+  background-color:black !important;
+  overflow: hidden !important;
+
+}
+
+code {
+  font-family: Lexend !important;
+
+}

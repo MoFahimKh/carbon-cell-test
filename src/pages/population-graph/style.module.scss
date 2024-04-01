@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+}
+.heading {
+  background: linear-gradient(270deg, #00ff00 3.16%, #ffff00 86.63%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
