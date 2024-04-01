@@ -2,6 +2,14 @@
 
 This repository contains my solutions to the Frontend Developer Assessment tasks.
 
+
+# Install Dependencies
+```npm install --legacy-peer-deps```
+
+# Run Application
+```npm start```
+
+
 ## Tasks
 
 ### Task 1: Create a Side Navigation Bar
@@ -49,3 +57,6 @@ Implemented MetaMask wallet integration using Web3 JS when the "Connect Wallet" 
 
 ## Contact
 For any questions or further clarification, feel free to reach out to [mfahimkh2001@gmail.com](mailto:mfahimkh2001@gmail.com).
+
+## Try it here:
+to try the app, Open -> [LINK](https://carbon-cell-test.netlify.app/).
